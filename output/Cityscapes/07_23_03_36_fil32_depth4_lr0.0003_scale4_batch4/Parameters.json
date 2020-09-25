@@ -1,0 +1,1 @@
+{"n_classes": 8, "scale": 4, "batch_size": 4, "last_activation": "softmax", "n_depth": 4, "n_filter_base": 32, "pool": 2, "lr": 0.0003, "epochs": 70, "validation_steps": 125, "steps_per_epoch": 750, "loss": "categorical_crossentropy", "n_train": 2975, "n_val": 500, "outfolder": "..\\..\\output\\Cityscapes\\07_23_03_36_fil32_depth4_lr0.0003_scale4_batch4"}

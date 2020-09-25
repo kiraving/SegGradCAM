@@ -1,0 +1,15 @@
+# Folders to ignore
+inputs
+# output
+code/.idea
+.git
+#inputs/cityscapes/gtFine_trainvaltest
+#inputs/cityscapes/leftImg8bit_trainvaltest
+#inputs/VOC2012
+.idea
+code/.ipynb_checkpoints
+code/*/.ipynb_checkpoints
+Seg-Grad-CAM-demo
+
+__pycache__/
+*.py[cod]
