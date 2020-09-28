@@ -12,8 +12,8 @@ with open(path.join(_dir,'README.md'), encoding='utf-8') as f:
 
 
 setup (
-    name='SegGradCAM',
-    #version=__version__,
+    name='seggradcam',
+    version=__version__,
     description='Seg-Grad-CAM',
     long_description=long_description,
     long_description_content_type='text/markdown',
