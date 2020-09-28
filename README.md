@@ -13,7 +13,7 @@ Please download [Cityscapes](https://www.cityscapes-dataset.com/) (Fine annotati
 # Usage
 Code for Seg-Grad-CAM [method](./code/seggradcam/seggradcam.py#L118)
 
-[Notebook])(./code/textureMNIST-notebooks/demo.ipynb) for training, loading pretrained model and usage of Seg-Grad-CAM on TextureMNIST
+[Notebook](./code/textureMNIST-notebooks/demo.ipynb) for training, loading pretrained model and usage of Seg-Grad-CAM on TextureMNIST
 
 Training a U-Net with a [backbone](./code/cityscapes-notebooks/city_demo_backbone.ipynb) on Cityscapes & applying Seg-Grad-CAM
 
@@ -22,7 +22,7 @@ Vanilla U-Net on Cityscapes & Seg-Grad-CAM
 
 # Credits:
 
-[CSBDeep] (https://github.com/csbdeep/csbdeep)
+[CSBDeep](https://github.com/csbdeep/csbdeep)
 @article{weigert2018content,
   title={Content-aware image restoration: pushing the limits of fluorescence microscopy},
   author={Weigert, Martin and Schmidt, Uwe and Boothe, Tobias and M{\"u}ller, Andreas and Dibrov, Alexandr and Jain, Akanksha and Wilhelm, Benjamin and Schmidt, Deborah and Broaddus, Coleman and Culley, Si{\^a}n and others},
