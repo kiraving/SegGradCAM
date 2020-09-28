@@ -1,28 +1,28 @@
 # Seg-Grad-CAM
-Publicly available implementation in Keras of the paper "Towards Interpretable Semantic Segmentation via Gradient-Weighted Class Activation Mapping" by Kira Vinogradova, Alexandr Dibrov, Gene Myers [https://aaai.org/ojs/index.php/AAAI/article/view/7244]
+Publicly available implementation in Keras of our ([paper](https://aaai.org/ojs/index.php/AAAI/article/view/7244)) "Towards Interpretable Semantic Segmentation via Gradient-Weighted Class Activation Mapping" by Kira Vinogradova, Alexandr Dibrov, Gene Myers.
 
-Check out our poster for a schematic overview of the method
+Check out our ([poster](./poster_Vinogradova_AAAI_Feb2020.pdf)) for a schematic overview of the method.
 
 # Installation
 
 # Requirements
 The package was tested on:
 
-Please download Cityscapes (Fine annotations): https://www.cityscapes-dataset.com/ 
+Please download ([Cityscapes](https://www.cityscapes-dataset.com/)) (Fine annotations) if you intend to test Seg-Grad-CAM on a real-world dataset collected on German roads.
 
 # Usage
-Code for Seg-Grad-CAM method: 
+Code for Seg-Grad-CAM ([method](./code/seggradcam/seggradcam.py#L118)) 
 
-Notebook for training, loading pretrained model and usage of Seg-Grad-CAM on TextureMNIST:
+([Notebook])(./code/textureMNIST-notebooks/demo.ipynb)) for training, loading pretrained model and usage of Seg-Grad-CAM on TextureMNIST
 
-Training a U-Net with a backbone on Cityscapes:
+Training a U-Net with a ([backbone](./code/cityscapes-notebooks/city_demo_backbone.ipynb)) on Cityscapes & applying Seg-Grad-CAM
 
-Seg-Grad-CAM on Cityscapes:
+Vanilla U-Net on Cityscapes & Seg-Grad-CAM
 
 
 # Credits:
 
-CSBDeep: https://github.com/csbdeep/csbdeep
+([CSBDeep] (https://github.com/csbdeep/csbdeep))
 @article{weigert2018content,
   title={Content-aware image restoration: pushing the limits of fluorescence microscopy},
   author={Weigert, Martin and Schmidt, Uwe and Boothe, Tobias and M{\"u}ller, Andreas and Dibrov, Alexandr and Jain, Akanksha and Wilhelm, Benjamin and Schmidt, Deborah and Broaddus, Coleman and Culley, Si{\^a}n and others},
@@ -42,7 +42,7 @@ booktitle={Proc. of the IEEE Conference on Computer Vision and Pattern Recogniti
 year={2016}
 }
 
-segmentation_models package:
+([segmentation_models](https://github.com/qubvel/segmentation_models)) package:
 @misc{Yakubovskiy:2019,
   Author = {Pavel Yakubovskiy},
   Title = {Segmentation Models},
@@ -54,9 +54,9 @@ segmentation_models package:
 
 TextureMNIST dataset:
 https://github.com/boschresearch/GridSaliency-ToyDatasetGen
-Code for toy dataset generation of "Grid Saliency for Context Explanations of Semantic Segmentation" (https://arxiv.org/abs/1907.13054)
+Code for toy dataset generation of "Grid Saliency for Context Explanations of Semantic Segmentation" ([paper](https://arxiv.org/abs/1907.13054))
 
-# How to cite:
+# How to cite Seg-Grad-CAM:
 
 @inproceedings{Vinogradova2020TowardsIS,
   title={Towards Interpretable Semantic Segmentation via Gradient-weighted Class Activation Mapping},
