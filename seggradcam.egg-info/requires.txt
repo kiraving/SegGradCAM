@@ -1,0 +1,4 @@
+csbdeep>=0.4.0
+tensorflow==1.14.0
+tensorflow-gpu
+opencv-python
