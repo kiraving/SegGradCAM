@@ -7,7 +7,7 @@ import os
 import numpy as np
 import keras
 from keras.optimizers import Adam
-from metrics import *
+from .metrics import *
 
 
 class TrainingParameters:

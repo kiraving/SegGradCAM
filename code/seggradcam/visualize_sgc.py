@@ -16,8 +16,8 @@ import os
 import matplotlib.pyplot as plt
 from datetime import datetime, timedelta
 from pathlib import Path
-import seggradcam
-from seggradcam import SegGradCAM,BiasRoI, SuperRoI, ClassRoI, PixelRoI
+#import .seggradcam
+from .seggradcam import SegGradCAM,BiasRoI, SuperRoI, ClassRoI, PixelRoI
 import numpy as np
 
 

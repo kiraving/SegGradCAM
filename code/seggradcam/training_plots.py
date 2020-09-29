@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from metrics import metric_name_str
+from .metrics import metric_name_str
 import os
 
  # Make one class for plots to avoid long parameter lists?

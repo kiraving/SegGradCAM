@@ -6,11 +6,12 @@ from keras.layers.merge import concatenate
 import os
 import sys
 from pathlib import Path
-scr_folder = os.path.abspath('.')
+"""scr_folder = os.path.abspath('.')
 if scr_folder not in sys.path:
     sys.path.insert(1, scr_folder)
-from training_write import TrainingParameters, TrainingResults
-from dataloaders import Cityscapes
+"""
+from .training_write import TrainingParameters, TrainingResults
+from .dataloaders import Cityscapes
 from keras.preprocessing.image import ImageDataGenerator
 from keras.callbacks import ModelCheckpoint
 from csbdeep.utils.tf import CARETensorBoard

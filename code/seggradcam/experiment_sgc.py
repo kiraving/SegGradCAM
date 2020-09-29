@@ -1,12 +1,12 @@
 import numpy as np
 from pathlib import Path
-from seggradcam import SegGradCAM,BiasRoI, SuperRoI, ClassRoI, PixelRoI
+from .seggradcam import SegGradCAM,BiasRoI, SuperRoI, ClassRoI, PixelRoI
 from matplotlib import pyplot as plt
 import os, sys
 from operator import sub
 import pandas as pd
-from visualize_sgc import SegGradCAMplot
-from training_plots import plot_predict_and_gt
+from .visualize_sgc import SegGradCAMplot
+from .training_plots import plot_predict_and_gt
 
 def propToEachActivation(cls, roi, roi_type, activations=None, image=None, trainunet=None, next_dict=None, image_id=None,
                          gt=None, n_classes=None, outfolder=None, model=None):
