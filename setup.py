@@ -4,7 +4,7 @@ from os import path
 
 _dir = path.abspath(path.dirname(__file__))
 
-with open(path.join(_dir,'code','seggradcam','version.py'), encoding='utf-8') as f:
+with open(path.join(_dir,'seggradcam','version.py'), encoding='utf-8') as f:
     exec(f.read())
 
 with open(path.join(_dir,'README.md'), encoding='utf-8') as f:
