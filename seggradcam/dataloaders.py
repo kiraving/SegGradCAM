@@ -7,7 +7,7 @@ from tqdm import tqdm
 from imageio import imread
 from scipy.ndimage import zoom
 from keras.utils import to_categorical
-from cityscape_labels import labels as LABELS
+from .cityscape_labels import labels as LABELS
 
 
 class Cityscapes:
