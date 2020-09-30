@@ -1,7 +1,0 @@
-README.md
-setup.py
-seggradcam.egg-info/PKG-INFO
-seggradcam.egg-info/SOURCES.txt
-seggradcam.egg-info/dependency_links.txt
-seggradcam.egg-info/requires.txt
-seggradcam.egg-info/top_level.txt
