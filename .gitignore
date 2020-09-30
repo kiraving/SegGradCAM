@@ -13,3 +13,5 @@ Seg-Grad-CAM-demo
 
 __pycache__/
 *.py[cod]
+dist/
+seggradcam.egg-info/
