@@ -1,4 +1,4 @@
-# Seg-Grad-CAM
+# SEG-GRAD-CAM
 Publicly available implementation in Keras of our [paper](https://aaai.org/ojs/index.php/AAAI/article/view/7244) "Towards Interpretable Semantic Segmentation via Gradient-Weighted Class Activation Mapping" by Kira Vinogradova, Alexandr Dibrov, Gene Myers.
 
 Check out our [poster](./poster_Vinogradova_AAAI_Feb2020.pdf) for a schematic overview of the method.
