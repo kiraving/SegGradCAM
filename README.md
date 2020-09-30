@@ -4,6 +4,7 @@ Publicly available implementation in Keras of our [paper](https://aaai.org/ojs/i
 Check out our [poster](./poster_Vinogradova_AAAI_Feb2020.pdf) for a schematic overview of the method.
 
 # Installation
+pip install git+https://github.com/kiraving/SegGradCAM.git
 
 # Requirements
 The package was tested on:
