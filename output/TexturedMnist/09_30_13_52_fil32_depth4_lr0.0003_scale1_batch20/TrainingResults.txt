@@ -1,0 +1,6 @@
+
+Training time (min): 144.52968231666668
+lowest val_loss 0.11114855507016182
+best validation  acc 0.9622221195697784
+best validation  IoU 0.9012136253118515
+best validation  Dice 0.9463657717704773

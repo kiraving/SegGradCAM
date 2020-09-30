@@ -38,7 +38,7 @@ def dice_loss(y_true, y_pred):
 
 
 def custom_metric(name):
-    if 'iou' in name.lower():
+    if 'iou' in name.lower(): #str(name).lower():
         return IoU(smooth=1)
     if 'dice' in name.lower():
         return Dice(smooth=1)
