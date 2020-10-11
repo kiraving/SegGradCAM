@@ -7,15 +7,15 @@ Check out our [poster](./poster_Vinogradova_AAAI_Feb2020.pdf) for a schematic ov
 ``pip install git+https://github.com/kiraving/SegGradCAM.git``
 
 # Requirements
-The package was tested on:
+Python 3.6, (recommended) Anaconda, versions of other packages can be found [here](./code/get_versions.ipynb)
 
 Please download [Cityscapes](https://www.cityscapes-dataset.com/) (Fine annotations) if you intend to test Seg-Grad-CAM on a real-world dataset collected on German roads.
 
 # Usage
-* Code for Seg-Grad-CAM [method](./code/seggradcam/seggradcam.py#L118)
-* [Notebook](./code/textureMNIST-notebooks/demo.ipynb) for training, loading pretrained model and usage of Seg-Grad-CAM on TextureMNIST
-* Training a U-Net with a [backbone](./code/cityscapes-notebooks/city_demo_backbone.ipynb) on Cityscapes & applying Seg-Grad-CAM
-* Vanilla U-Net on Cityscapes & Seg-Grad-CAM
+* Code for [Seg-Grad-CAM method](./code/seggradcam/seggradcam.py#L118)
+* [Notebook for training, loading pretrained model and usage of Seg-Grad-CAM on TextureMNIST](./code/textureMNIST-notebooks/demo.ipynb)
+* [Training a U-Net with a backbone on Cityscapes & applying Seg-Grad-CAM](./code/cityscapes-notebooks/city_demo_backbone.ipynb) 
+* [Vanilla U-Net on Cityscapes & Seg-Grad-CAM](./code/cityscapes-notebooks/city_demo_vanilla.ipynb)
 
 # Credits:
 [CSBDeep](https://github.com/csbdeep/csbdeep)
