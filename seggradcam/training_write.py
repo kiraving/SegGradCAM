@@ -5,7 +5,7 @@ from pathlib import Path
 import json
 import os
 import numpy as np
-#import keras
+import keras
 #from keras.optimizers import Adam
 from .metrics import *
 
