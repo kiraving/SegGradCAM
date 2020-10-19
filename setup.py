@@ -26,7 +26,8 @@ setup (
     install_requires=[
         'csbdeep>=0.4.0',
         'tensorflow==1.14.0', #>=1.14.0,<2.0.0',
-        'tensorflow-gpu',
+        'tensorflow-gpu==1.14.0',
+        'keras-gpu>=2.0.0',
         'opencv-python',
     ],
 )
