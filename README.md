@@ -12,7 +12,7 @@ Python 3.6, (recommended) Anaconda, versions of other packages can be found [her
 Please download [Cityscapes](https://www.cityscapes-dataset.com/) (Fine annotations) if you intend to test Seg-Grad-CAM on a real-world dataset collected on German roads.
 
 # Usage
-* [Code for Seg-Grad-CAM method](./code/seggradcam/seggradcam.py#L118)
+* [Code for Seg-Grad-CAM method](./seggradcam/seggradcam.py#L118)
 * [Notebook for training, loading pretrained model and usage of Seg-Grad-CAM on TextureMNIST](./code/textureMNIST-notebooks/demo.ipynb)
 * [Training a U-Net with a backbone on Cityscapes & applying Seg-Grad-CAM](./code/cityscapes-notebooks/city_demo_backbone.ipynb) 
 * [Vanilla U-Net on Cityscapes & Seg-Grad-CAM](./code/cityscapes-notebooks/city_demo_vanilla.ipynb)
