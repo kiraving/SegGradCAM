@@ -3,6 +3,8 @@ Publicly available implementation in Keras of our [paper](https://aaai.org/ojs/i
 
 Check out our [poster](./poster_Vinogradova_AAAI_Feb2020.pdf) for a schematic overview of the method.
 
+There is a plan for an extended publication with more results and further improvements of the method in March - May 2023. 
+
 # Installation
 ``pip install git+https://github.com/kiraving/SegGradCAM.git``
 
